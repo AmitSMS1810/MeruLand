@@ -6,8 +6,9 @@ export default function Navbar() {
     <header className="flex items-center justify-between px-4 md:px-10 py-4 bg-white">
       
       {/* Logo → Mobile only */}
-      <div className="flex items-center gap-3 md:hidden">
-        <img src={logo} alt="logo" className="h-8" />
+      <div className="flex items-center gap-2 md:hidden">
+        <div className="w-10"></div>
+        <img src={logo} alt="logo" className="h-10" />
         <div className="flex flex-col leading-tight">
           <span className="text-base font-bold">Glamorous</span>
           <span className="text-xs font-medium text-gray-500">
